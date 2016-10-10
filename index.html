@@ -22,6 +22,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <link rel="shortcut icon" type="image/jpg" href="img/portfolio/favicon2.png"/>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,7 +43,8 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">EA</a>
+                <a class="navbar-brand" href="#page-top"> <img src="img/portfolio/favicon2small.png" height="42" width="42"/>
+                <a class="navbar-brand" href="#page-top">EMAD AHMED</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,7 +54,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio">Projects</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#about">About</a>
@@ -68,15 +71,25 @@
 
     <!-- Header -->
     <header>
+      <script src="jquery.js"></script>
+<script src="typed.js"></script>
+<script>
+  $(function(){
+      $(".element").typed({
+        strings: ["First sentence.", "Second sentence."],
+        typeSpeed: 0
+      });
+  });
+</script>
+
+<span class="element"></span>
+
         <div class="container">
             <div class="row">
-              <div class="intro-text">
-                  <span class="name">Emad Ahmed</span>
-              </div>
                 <div class="col-lg-12">
-                    <img class="img-responsive img-circle" src="img/profile.png" alt="">
+                    <img class="img-responsive img-circle" src="img/profile.png" alt="" height="400px">
                     <div class="intro-text">
-                        <span class="skills">Systems Design Engineer - Web Developer - Designer </span>
+                        <span class="skills" >Systems Design Engineer - Software Developer - Curious learner</span>
                     </div>
                 </div>
             </div>
@@ -87,7 +100,7 @@
     <section id="portfolio">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-md-12 text-center">
                     <h2>Projects</h2>
                     <hr class="star-primary">
                 </div>
@@ -110,7 +123,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/fadeaway2.jpg.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -120,7 +133,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/feelslike.png" class="img-responsive" alt="">
                     </a>
                 </div>
 
@@ -134,18 +147,34 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About</h2>
-                    <hr class="star-light">
+                    <br>
+
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p>Hey! My name is Emad Ahmed, and I'm a Systems Design Engineering student at the University of Waterloo. I would define myself as a curious life-long learner who has a growing interest in the fields of software and technology coupled with an already deep-rooted gravitation towards the design process.</p>
+                    <p>Hi! My name is Emad Ahmed, and I'm a Systems Design Engineering student at the University of Waterloo. I would define myself as a curious life-long learner who has a deep interest in the fields of software and technology and how it can be used to change the world. Some of my current interests include back-end software development, machine learning and embedded systems. Most of all I love a new challenge and learning by building cool projects. </p>
                 </div>
 
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="Files/emadahmed_resume.pdf" download="resume"  class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Download Resume
                     </a>
+                    <a href="https://uwaterloo.ca/systems-design-engineering/about-systems-design-engineering/what-systems-design-engineering" target="_blank" class="btn btn-lg btn-outline">
+                        <i></i> About Systems Design Engineering at the University of Waterloo
+                    </a>
+
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <br>
+                      <div class="col-lg-12 text-center">
+                          <h2>Work Experience</h2>
+                      </div>
+                      <div class="col-lg-8 col-lg-offset-2 ">
+                        <br>
+                          <p>January 2016 - April 2016:      <b>Software Engineer at TVR Communications</b> </p>
+
+                          <p>September 2016 - Present: <b>Software Design Engineer at Evertz Microsystems</b> </p>
+                      </div>
                 </div>
             </div>
         </div>
@@ -155,13 +184,13 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-md-12 text-center">
                     <h2>Contact Me</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <div id="wufoo-z10bmvcl0hipi7f">
@@ -197,15 +226,12 @@
             <div class="container">
                 <div class="row">
 
-                    <a href="https://twitter.com/elite_emad" class="twitter-follow-button" target="_blank" data-show-count="false">Follow @elite_emad</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <a href="https://twitter.com/elite_emad" class="twitter-follow-button" target="_blank" data-show-count="false">Follow me on twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
                     <div class="footer-col col-md-12 text-center">
                         <ul class="list-inline">
                             <li>
                                 <a href="https://www.facebook.com/profile.php?id=100007216932693" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-facebook fa-align-center"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-google-plus"></i></a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/elite_emad" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
@@ -214,7 +240,7 @@
                                 <a href="https://ca.linkedin.com/in/emaduahmed" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="https://github.com/emadahmed97" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -257,18 +283,14 @@
                             <hr class="star-primary">
                             <img src="img/note.png" class="img-responsive img-centered" alt="">
                             <p>Android app that allows users to create notes and save them to the device’s persistent storage. Also added multiple screen support and used SQLite Database to store user information and preform CRUD operations. Check it out
-                            <a href="https://github.com/emadahmed97/EasyNote" target="_blank">Here</a> </p>
+                            <a href="https://github.com/emadahmed97/EasyNote" target="_blank">Here!</a> </p>
                             <ul class="list-inline item-details">
                                 <li>Technologies:
-                                    <strong><a> Java, Android Studio, SQL</a>
+                                    <strong>Java, Android Studio, SQL</
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a>April 2016</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a>Android Development</a>
+                                    <strong>April 2016
                                     </strong>
                                 </li>
                             </ul>
@@ -291,21 +313,17 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Fadeaway Hoops</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/fadeaway2.jpg.png" class="img-responsive img-centered" alt="">
+                            <p>I have a huge passion for basketball and writing about basketball, which is why I decided to create Fadeaway hoops. The goal is to allow fans who like to write about basketball to have a platform where they can simply login and write articles about whatever NBA topic they choose. This project is under development and is built using Django, Django Rest Framework, PostgreSQL and AngularJS. Some topics I plan to write about include using machine learning to predict key stats for the upcoming NBA season. Stay tuned! </p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>Technologies:
+                                    <strong>Django, PostgreSQL, AngularJS, RESTful API</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong>August 2016 - present</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -328,21 +346,17 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>FeelsLike</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/feelslike.png" class="img-responsive img-centered" alt="">
+                            <p>I always feel like I am mislead by reading the weather on my phone because it never includes the windchill and the feels like temperature. So I decided to do create an Android app that solves this problem. Users simply enter their location, temperature and windspeed and using the Yahoo Weather API the app displays the 'feels like' temperature. Some features I added recently include error-checking and storing the users location for future use.<a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>Technologies:
+                                    <strong>Java, Android Studio, SQL, Yahoo Weather API</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong>March 2016/a>
                                     </strong>
                                 </li>
                             </ul>
